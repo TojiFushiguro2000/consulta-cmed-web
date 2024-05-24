@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Carregar os dados do Excel
-df = pd.read_excel('Dados/dados-CMED.xlsx')
+df = pd.read_excel("dados-CMED.xlsx")
 
 def main():
     st.title('Consulta à Tabela CMED')
